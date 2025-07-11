@@ -1,0 +1,14 @@
+<mvc:View controllerName="com.incture.quizzy.controller.Results"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="Rpage" title="{i18n>title}">
+        <content>
+      <VBox id="_IDGenVBox1" class="sapUiMediumMargin" alignItems="Center">
+        <Text id="_IDGenText1" text="Your Score: {quiz>/score}" class="sapUiSmallMargin"/>
+        <Text id="_IDGenText2" text="Correct Answers: {quiz>/correctAnswers}" class="sapUiSmallMargin"/>
+        <Text id="_IDGenText3" text="Wrong Answers: {quiz>/wrongAnswers}" class="sapUiSmallMargin"/>
+        <Button id="_IDGenButton2" text="Play Again" press="onRestart" type="Emphasized" class="sapUiSmallMarginTop"/>
+      </VBox>
+    </content>
+    </Page>
+</mvc:View>

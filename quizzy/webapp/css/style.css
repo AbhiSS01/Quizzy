@@ -1,0 +1,318 @@
+/* Enter your custom styles here */
+/* Beautiful Quiz Application Styles */
+
+/* Global Styles */
+.sapUiBody {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+}
+
+/* Main Container Styling */
+.sapMPage {
+    background: transparent !important;
+}
+
+/* Home Page Styles */
+#fVBox {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    padding: 3rem !important;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+#fText {
+    font-size: 2.5rem !important;
+    font-weight: bold !important;
+    color: #4a5568 !important;
+    text-align: center !important;
+    margin-bottom: 2rem !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#idStartQuiz {
+    background: linear-gradient(45deg, #667eea, #764ba2) !important;
+    border: none !important;
+    padding: 1rem 2rem !important;
+    font-size: 1.2rem !important;
+    font-weight: bold !important;
+    border-radius: 50px !important;
+    box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3) !important;
+    transition: all 0.3s ease !important;
+    color: white !important;
+    min-width: 200px !important;
+}
+
+#idStartQuiz:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 15px 30px rgba(102, 126, 234, 0.4) !important;
+}
+
+/* Quiz Page Styles */
+#_IDGenVBox {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    padding: 2.5rem !important;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+/* Question Counter Styling */
+#questionCounter {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    color: white !important;
+    padding: 0.5rem 1.5rem !important;
+    border-radius: 25px !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    display: inline-block !important;
+    margin-bottom: 1.5rem !important;
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+}
+
+/* Question Text Styling */
+#questionText {
+    font-size: 1.4rem !important;
+    font-weight: 600 !important;
+    color: #2d3748 !important;
+    line-height: 1.6 !important;
+    text-align: center !important;
+    padding: 1rem !important;
+    background: rgba(102, 126, 234, 0.05);
+    border-radius: 15px;
+    border-left: 4px solid #667eea;
+}
+
+/* Options Container */
+#optionsContainer {
+    margin: 2rem 0 !important;
+}
+
+/* Radio Button Styling */
+.sapMRb {
+    margin: 0.8rem 0 !important;
+    padding: 1rem !important;
+    background: rgba(255, 255, 255, 0.8) !important;
+    border: 2px solid rgba(102, 126, 234, 0.2) !important;
+    border-radius: 15px !important;
+    transition: all 0.3s ease !important;
+    cursor: pointer !important;
+}
+
+.sapMRb:hover {
+    background: rgba(102, 126, 234, 0.1) !important;
+    border-color: #667eea !important;
+    transform: translateX(5px) !important;
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2) !important;
+}
+
+.sapMRb.sapMRbSel {
+    background: linear-gradient(45deg, #667eea, #764ba2) !important;
+    border-color: #667eea !important;
+    color: white !important;
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3) !important;
+}
+
+.sapMRb.sapMRbSel .sapMRbB {
+    border-color: white !important;
+}
+
+.sapMRb.sapMRbSel .sapMRbB:after {
+    background: white !important;
+}
+
+.sapMRb .sapMLabel {
+    font-size: 1.1rem !important;
+    font-weight: 500 !important;
+    padding-left: 1rem !important;
+}
+
+.sapMRb.sapMRbSel .sapMLabel {
+    color: white !important;
+}
+
+/* Next/Finish Button Styling */
+#_IDGenButton {
+    background: linear-gradient(45deg, #48bb78, #38a169) !important;
+    border: none !important;
+    padding: 1rem 2.5rem !important;
+    font-size: 1.1rem !important;
+    font-weight: bold !important;
+    border-radius: 50px !important;
+    color: white !important;
+    box-shadow: 0 8px 20px rgba(72, 187, 120, 0.3) !important;
+    transition: all 0.3s ease !important;
+    min-width: 150px !important;
+    margin-top: 1.5rem !important;
+}
+
+#_IDGenButton:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 12px 25px rgba(72, 187, 120, 0.4) !important;
+}
+
+/* Loading Indicator Styling */
+#loadingBox {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 3rem !important;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+#loadingText {
+    font-size: 1.2rem !important;
+    color: #4a5568 !important;
+    font-weight: 500 !important;
+}
+
+/* Results Page Styles */
+#_IDGenVBox1 {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    padding: 3rem !important;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+#_IDGenText1 {
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    color: #667eea !important;
+    text-align: center !important;
+    margin-bottom: 1rem !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#_IDGenText2, #_IDGenText3 {
+    font-size: 1.3rem !important;
+    font-weight: 600 !important;
+    color: #4a5568 !important;
+    text-align: center !important;
+    margin: 0.8rem 0 !important;
+    padding: 0.5rem !important;
+    background: rgba(102, 126, 234, 0.05);
+    border-radius: 10px;
+}
+
+#_IDGenButton2 {
+    background: linear-gradient(45deg, #667eea, #764ba2) !important;
+    border: none !important;
+    padding: 1rem 2.5rem !important;
+    font-size: 1.2rem !important;
+    font-weight: bold !important;
+    border-radius: 50px !important;
+    color: white !important;
+    box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3) !important;
+    transition: all 0.3s ease !important;
+    min-width: 200px !important;
+    margin-top: 2rem !important;
+}
+
+#_IDGenButton2:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 15px 30px rgba(102, 126, 234, 0.4) !important;
+}
+
+/* Page Title Styling */
+.sapMPageHeader .sapMBarMiddle .sapMTitle {
+    color: white !important;
+    font-size: 1.8rem !important;
+    font-weight: bold !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+}
+
+.sapMPageHeader {
+    background: linear-gradient(45deg, #667eea, #764ba2) !important;
+    border: none !important;
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3) !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #fVBox, #_IDGenVBox, #_IDGenVBox1 {
+        margin: 1rem !important;
+        padding: 1.5rem !important;
+    }
+    
+    #fText {
+        font-size: 2rem !important;
+    }
+    
+    #questionText {
+        font-size: 1.2rem !important;
+    }
+    
+    .sapMRb .sapMLabel {
+        font-size: 1rem !important;
+    }
+}
+
+/* Animation for smooth transitions */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#_IDGenVBox, #fVBox, #_IDGenVBox1 {
+    animation: slideIn 0.5s ease-out;
+}
+
+/* Pulse animation for loading indicator */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#loadingBox {
+    animation: pulse 2s infinite;
+}
+
+/* Custom scrollbar for better aesthetics */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, #5a67d8, #6b46c1);
+}

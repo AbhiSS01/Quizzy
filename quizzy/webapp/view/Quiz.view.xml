@@ -1,0 +1,72 @@
+<mvc:View
+    controllerName="com.incture.quizzy.controller.Quiz"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+
+    <Page id="Qpage" title="Quizzy">
+        <content>
+            <VBox id="_IDGenVBox" class="sapUiMediumMargin" visible="{= ${quiz>/questions}.length > 0 }">
+
+                <!-- Question Counter -->
+                <Text
+                    id="questionCounter"
+                    text="Question {= ${quiz>/currentQuestion} + 1 } of {quiz>/questions/length}"
+                    class="sapUiSmallMarginBottom"
+                    />
+
+                <!-- Question Text -->
+                <Text
+                    id="questionText"
+                    text="{quiz>/currentQuestionText}"
+                    class="sapUiMediumMarginBottom"
+                    wrapping="true"
+                    />
+
+                <!-- Radio Buttons for Options -->
+                <VBox id="optionsContainer" class="sapUiMediumMarginBottom">
+                    <RadioButton 
+                        id="option0" 
+                        text="{quiz>/currentOptions/0}" 
+                        groupName="quizOptions" 
+                        select="onSelectOption"
+                        customData:optionIndex="0"
+                        xmlns:customData="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" />
+                    <RadioButton 
+                        id="option1" 
+                        text="{quiz>/currentOptions/1}" 
+                        groupName="quizOptions" 
+                        select="onSelectOption"
+                        customData:optionIndex="1"
+                        xmlns:customData="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" />
+                    <RadioButton 
+                        id="option2" 
+                        text="{quiz>/currentOptions/2}" 
+                        groupName="quizOptions" 
+                        select="onSelectOption"
+                        customData:optionIndex="2"
+                        xmlns:customData="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" />
+                    <RadioButton 
+                        id="option3" 
+                        text="{quiz>/currentOptions/3}" 
+                        groupName="quizOptions" 
+                        select="onSelectOption"
+                        customData:optionIndex="3"
+                        xmlns:customData="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" />
+                </VBox>
+
+                <!-- Next Button -->
+                <Button id="_IDGenButton"
+                    text="{= ${quiz>/currentQuestion} + 1 >= ${quiz>/questions/length} ? 'Finish' : 'Next' }"
+                    press="onNext"
+                    type="Emphasized"
+                    class="sapUiSmallMarginTop" />
+            </VBox>
+            
+            <!-- Loading indicator when questions are not yet loaded -->
+            <VBox id="loadingBox" class="sapUiMediumMargin" alignItems="Center" visible="{= ${quiz>/questions}.length === 0 }">
+                <BusyIndicator id="loadingIndicator" />
+                <Text id="loadingText" text="Loading questions..." class="sapUiSmallMarginTop" />
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>

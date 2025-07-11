@@ -1,0 +1,12 @@
+<mvc:View controllerName="com.incture.quizzy.controller.Home"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <VBox class="sapUiMediumMargin" id="fVBox" alignItems="Center" justifyContent="Center">
+                <Text text="Welcome to Quizzy" class="sapUiSmallMargin" id="fText"/>
+                <Button text="Start Quiz" press="onStartPress" type="Emphasized" id="idStartQuiz"/>
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>

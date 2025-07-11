@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "text": "What is the capital of India?",
+      "options": ["Mumbai", "Delhi", "Kolkata", "Chennai"],
+      "answer": "Delhi"
+    },
+    {
+      "text": "Who developed SAP?",
+      "options": ["Google", "Microsoft", "SAP SE", "Oracle"],
+      "answer": "SAP SE"
+    },
+    {
+      "text": "Which Indian city is known as the 'Silicon Valley of India'?",
+      "options": ["Mumbai", "Hyderabad", "Bangalore", "Pune"],
+      "answer": "Bangalore"
+    },
+    {
+      "text": "What does SDLC stand for in software engineering?",
+      "options": ["Software Development Life Cycle", "System Design Life Cycle", "Software Deployment Life Cycle", "System Development Life Cycle"],
+      "answer": "Software Development Life Cycle"
+    },
+    {
+      "text": "Which Indian IT company was founded by Narayana Murthy?",
+      "options": ["TCS", "Infosys", "Wipro", "HCL"],
+      "answer": "Infosys"
+    },
+    {
+      "text": "What is the most popular programming language for web development?",
+      "options": ["Python", "Java", "JavaScript", "C++"],
+      "answer": "JavaScript"
+    },
+    {
+      "text": "Which Indian state is home to the maximum number of IT companies?",
+      "options": ["Maharashtra", "Tamil Nadu", "Karnataka", "Telangana"],
+      "answer": "Karnataka"
+    },
+    {
+      "text": "What does API stand for in software development?",
+      "options": ["Application Programming Interface", "Advanced Programming Interface", "Application Process Interface", "Automated Programming Interface"],
+      "answer": "Application Programming Interface"
+    },
+    {
+      "text": "Which Indian city is known as 'Cyberabad'?",
+      "options": ["Bangalore", "Hyderabad", "Chennai", "Pune"],
+      "answer": "Hyderabad"
+    },
+    {
+      "text": "What is the primary purpose of version control systems like Git?",
+      "options": ["Code compilation", "Track changes in source code", "Database management", "User interface design"],
+      "answer": "Track changes in source code"
+    },
+    {
+      "text": "Which Indian IT company is headquartered in Mumbai?",
+      "options": ["Infosys", "TCS", "Wipro", "Tech Mahindra"],
+      "answer": "TCS"
+    },
+    {
+      "text": "What does OOP stand for in programming?",
+      "options": ["Object-Oriented Programming", "Operational Optimization Process", "Online Operating Platform", "Organized Output Processing"],
+      "answer": "Object-Oriented Programming"
+    },
+    {
+      "text": "Which Indian city hosts the largest number of Fortune 500 companies' development centers?",
+      "options": ["Mumbai", "Delhi", "Bangalore", "Chennai"],
+      "answer": "Bangalore"
+    },
+    {
+      "text": "What is the main purpose of unit testing in software development?",
+      "options": ["Test user interface", "Test individual components", "Test database connectivity", "Test network performance"],
+      "answer": "Test individual components"
+    },
+    {
+      "text": "Which Indian institution is known as the premier technical education institute?",
+      "options": ["IIT", "NIT", "BITS", "VIT"],
+      "answer": "IIT"
+    },
+    {
+      "text": "What does SQL stand for in database management?",
+      "options": ["Structured Query Language", "Simple Query Language", "Standard Query Language", "Sequential Query Language"],
+      "answer": "Structured Query Language"
+    },
+    {
+      "text": "Which Indian state is known for its software technology parks and IT hubs?",
+      "options": ["Kerala", "Tamil Nadu", "Karnataka", "Both Tamil Nadu and Karnataka"],
+      "answer": "Both Tamil Nadu and Karnataka"
+    },
+    {
+      "text": "What is the primary benefit of using Agile methodology in software development?",
+      "options": ["Faster coding", "Better documentation", "Iterative development and flexibility", "Reduced testing time"],
+      "answer": "Iterative development and flexibility"
+    },
+    {
+      "text": "Which Indian city is home to the Indian Institute of Science (IISc)?",
+      "options": ["Chennai", "Bangalore", "Hyderabad", "Kolkata"],
+      "answer": "Bangalore"
+    },
+    {
+      "text": "What does DevOps combine in software development?",
+      "options": ["Development and Operations", "Design and Operations", "Development and Optimization", "Deployment and Operations"],
+      "answer": "Development and Operations"
+    }
+  ]
+}
